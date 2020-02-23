@@ -56,6 +56,20 @@ body {
 }
 textarea {
     margin-bottom: 8px;
+    height: 75px;
+    border-width: 0px;
+    resize: none;
+}
+
+input {
+    margin-bottom: 8px;
+    height: 25px;
+    border-width: 0px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 
 #section3 button {
@@ -72,4 +86,8 @@ textarea {
     position: relative;
     cursor: pointer;
     color: white;
+}
+
+#content p {
+   font-family: Georgia, 'Times New Roman', Times, serif; 
 }
