@@ -1,0 +1,75 @@
+/* body {
+    background-color: blue;
+} */
+
+body {
+    margin: 0px;
+}
+
+#header {
+    display: table;
+    width: 850px;
+    height: 450px;
+    background-image: url(nasa123.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#header span {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    width: 850px;
+    background-color:#E6E6E6 ;
+}
+
+#section1,
+#section2,
+#section3 {
+    width: 270px;
+    margin-left: 20px;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+#section3 #name,
+#section3 #msg {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+textarea {
+    margin-bottom: 8px;
+}
+
+#section3 button {
+    background-color: #4d4d4d;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 800 18px Arial;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: none;
+    border-image: none;
+    width: 80px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
